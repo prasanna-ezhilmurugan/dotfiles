@@ -1,1 +1,6 @@
-./git
+\.git
+\.gitignore
+\.gitmodules
+
+
+^/README.*
