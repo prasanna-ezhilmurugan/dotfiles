@@ -8,9 +8,11 @@ call plug#begin()
 " List your plugins here "
 Plug 'tpope/vim-sensible'
 Plug 'itchyny/lightline.vim'
-Plug 'preservim/nerdcommenter'
 Plug 'mengelbrecht/lightline-bufferline'
+Plug 'preservim/nerdtree'
 " Code Formatting Plugins "
+Plug 'octol/vim-cpp-enhanced-highlight'
+" Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
@@ -20,6 +22,9 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Colorscheme Plugin "
 Plug 'chriskempson/base16-vim'
+" Utils "
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
@@ -34,6 +39,14 @@ set shiftwidth=2
 set nowrap
 set sidescroll=1
 set termguicolors
+set nohlsearch
+
+let g:NERDCreateDefaultMappings = 1
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+let g:cpp_posix_standard = 1
 
 " Remaps " 
 let mapleader="\<space>"
