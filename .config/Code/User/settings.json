@@ -1,0 +1,35 @@
+{
+    "window.zoomLevel": 1.5,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.cursorBlinking": true,
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": false
+    },
+    "C_Cpp.default.cppStandard": "c++20",
+    "cmake.showOptionsMovedNotification": false,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "editor.tabSize": 2,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+}
