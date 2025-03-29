@@ -1,0 +1,19 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/breeze.toml"
+]
+
+[font]
+size = 16
+
+  [font.normal]
+  family = "JetBrainsMono Nerd Font"
+  style = "Regular"
+
+[window.padding]
+x = 5
+y = 5
+
+[window.dimensions]
+lines = 25
+columns = 90
