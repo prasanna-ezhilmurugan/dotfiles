@@ -40,9 +40,12 @@ set shiftwidth=2
 set nowrap
 set sidescroll=1
 set termguicolors
-set undofile
 set nomousehide
-set nohlsearch
+
+" Search settings "
+set ignorecase
+set smartcase
+set hlsearch
 
 set nobackup nowritebackup
 set hidden
@@ -58,7 +61,7 @@ let g:cpp_class_decl_highlight = 1
 let g:cpp_posix_standard = 1
 
 " Go to tab by number "
-let mapleader=" "
+let mapleader="\"
 noremap <leader>1 1gt
 noremap <leader>2 2gt
 noremap <leader>3 3gt
@@ -70,6 +73,10 @@ noremap <leader>8 8gt
 noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
 nnoremap <C-e> :NERDTreeToggle<CR>
+
+" Managing tabs "
+map <leader>tn :tabnew<cr>
+map <leader>tc :tabclose<cr>
 
 augroup autoformat_settings
   autocmd FileType bzl AutoFormatBuffer buildifier
