@@ -11,6 +11,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
 Plug 'preservim/nerdtree'
 " Code Formatting Plugins "
+Plug 'prettier/vim-prettier'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'octol/vim-cpp-enhanced-highlight'
 " Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'google/vim-maktaba'
@@ -61,7 +63,7 @@ let g:cpp_class_decl_highlight = 1
 let g:cpp_posix_standard = 1
 
 " Go to tab by number "
-let mapleader="\"
+let mapleader=" "
 noremap <leader>1 1gt
 noremap <leader>2 2gt
 noremap <leader>3 3gt
