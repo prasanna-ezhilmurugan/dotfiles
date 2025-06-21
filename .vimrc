@@ -13,7 +13,11 @@ Plug 'preservim/nerdtree'
 " Code Formatting Plugins "
 Plug 'prettier/vim-prettier'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'octol/vim-cpp-enhanced-highlight' 
+
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
+
 " Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
